@@ -1,0 +1,55 @@
+.task-h1 {
+  text-align: center;
+  color: #000;
+  font-weight: 300;
+}
+
+.task-top {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.task-input {
+  border: none;
+  outline: none;
+  width: 400px;
+  padding: 0 0.5rem;
+  border-bottom: 1px solid #000;
+}
+
+.task-add {
+  color: #000;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+
+.task-item {
+  position: relative;
+  margin: 1rem auto auto auto;
+  color: #000;
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+  max-width: 600px;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+.task-text {
+  word-wrap: break-word;
+}
+.task-icons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  display: flex;
+  gap: 0.5rem;
+
+  & i {
+    cursor: pointer;
+  }
+}
+
